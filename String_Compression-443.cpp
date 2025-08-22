@@ -38,6 +38,7 @@ public:
      int beg = 0;  
      for(int i =beg ; i< end; ){
      int  count = 0;
+      //Saves previous letter for comparison
      const char letter = chars[i];
 
        //Ensurses that 'i' stays under the max length of the string as well as checks to ensure if every consecutive character matches the previous.
